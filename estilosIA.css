@@ -1,0 +1,121 @@
+/* Resetear estilos y establecer fuentes */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+form,
+label,
+input,
+textarea,
+button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos generales */
+body {
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.plant {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.plant img {
+    max-width: 100%;
+    height: auto;
+}
+
+.plant h3 {
+    margin-top: 10px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#consigna {
+    display: flex;
+    justify-content: center;
+}
+
+#enlace_video {
+    text-align: center;
+}

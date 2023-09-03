@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="estilosIA.css" />
+        <title>Mi Sitio de Plantas</title>
+    </head>
+    <body>
+        <header>
+            <h1>Mi Sitio de Plantas</h1>
+            <nav>
+                <ul>
+                    <li><a href="#interior">Plantas de Interior</a></li>
+                    <li><a href="#exterior">Plantas de Exterior</a></li>
+                    <li><a href="#about">Acerca de</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <li>
+                        <a href="actividad1.html"
+                            >ACTIVIDAD 1 - PROYECTO DE SOFTWARE</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="about">
+            <h2>Acerca de Nosotros</h2>
+            <!-- Información sobre el mantenimiento del sitio -->
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed
+                modi ratione voluptates quam! Eaque commodi voluptatum sint
+                provident soluta, exercitationem expedita sunt facere voluptas
+                distinctio, quos, natus repudiandae consequatur accusantium.
+            </p>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
+                ducimus perspiciatis laborum asperiores natus veritatis dolorum
+                quis sint vero? Minima esse officiis blanditiis soluta accusamus
+                quis eveniet amet provident vel?
+            </p>
+        </section>
+
+        <section id="interior">
+            <h2>Plantas de Interior</h2>
+            <div class="grid">
+                <!-- Planta 1 de Interior -->
+                <div class="plant">
+                    <img
+                        src="imagenes/interior_1_pachira.jpg"
+                        alt="Planta de Interior 1"
+                    />
+                    <h3>Pachira</h3>
+                    <a href="info/interior_1_pachira.pdf" download>+ Info</a>
+                </div>
+                <!-- Planta 2 de Interior -->
+                <div class="plant">
+                    <img
+                        src="imagenes/interior_2_palma_areca.jpg"
+                        alt="Planta de Interior 2"
+                    />
+                    <h3>Palma Areca</h3>
+                    <a href="info/interior_2_palma_areca.pdf" download
+                        >+ Info</a
+                    >
+                </div>
+                <!-- Planta 3 de Interior -->
+                <div class="plant">
+                    <img
+                        src="imagenes/interior_3_ave_del_paraiso.jpg"
+                        alt="Planta de Interior 3"
+                    />
+                    <h3>Ave del Paraiso</h3>
+                    <a href="info/interior_3_ave_del_paraiso.pdf" download
+                        >+ Info</a
+                    >
+                </div>
+            </div>
+        </section>
+
+        <section id="exterior">
+            <h2>Plantas de Exterior</h2>
+            <div class="grid">
+                <!-- Planta 1 de Exterior -->
+                <div class="plant">
+                    <img
+                        src="imagenes/exterior_1_aloe_vera.jpg"
+                        alt="Planta de Exterior 1"
+                    />
+                    <h3>Aloe Vera</h3>
+                    <a href="info/exterior_1_aloe_vera.pdf" download>+ Info</a>
+                </div>
+                <!-- Planta 2 de Exterior -->
+                <div class="plant">
+                    <img
+                        src="imagenes/exterior_2_euphorbia_eritrea.jpg"
+                        alt="Planta de Exterior 2"
+                    />
+                    <h3>Euphorbia Eritrea</h3>
+                    <a href="info/exterior_2_euphorbia_eritrea.pdf" download
+                        >+ Info</a
+                    >
+                </div>
+                <!-- Planta 3 de Exterior -->
+                <div class="plant">
+                    <img
+                        src="imagenes/exterior_3_limonero.jpg"
+                        alt="Planta de Exterior 3"
+                    />
+                    <h3>Limonero</h3>
+                    <a href="info/exterior_3_limonero.pdf" download>+ Info</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required />
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    rows="4"
+                    required
+                ></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>Derechos de autor © 2023 - Mi Sitio de Plantas</p>
+        </footer>
+    </body>
+</html>
